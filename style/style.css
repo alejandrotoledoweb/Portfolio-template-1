@@ -1,0 +1,28 @@
+/* General Style */
+
+.font-1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-15rem{
+  font-size: 29rem;
+}
+
+.social {
+  list-style-type: none;
+}
+
+body {
+  background: #a8a8a8;
+}
+
+.project-img {
+  width: 100px;
+  height: 100px;
+  scale: 0.2px;
+  object-fit: contain;
+}
+
+.project-div {
+  max-width: 200px;
+}
