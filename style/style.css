@@ -12,10 +12,6 @@
   list-style-type: none;
 }
 
-body {
-  background: #a8a8a8;
-}
-
 .project-img {
   width: 100px;
   height: 100px;
@@ -25,4 +21,8 @@ body {
 
 .project-div {
   max-width: 200px;
+}
+
+body {
+  background-color: aqua ;
 }
