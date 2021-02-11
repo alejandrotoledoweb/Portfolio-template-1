@@ -22,28 +22,28 @@
 <body>
 
   <!-- Header and navbar -->
-  <nav class="navbar navbar-expand-md navbar-light ml-5 mr-5 mb-5 border-bottom">
-    <a href="#" class='navbar-brand navbar-item'>Home</a>
+  <nav class="navbar navbar-expand-md navbar-light ml-5 mr-5 mb-5 border-bottom fixed-top bg-white">
+    
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-menu">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="main.html">My Info</a>
+          <a class="nav-link text-white bg-secondary rounded mr-2" href="#my-info">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link c-black" href="about.html">Projects</a>
+          <a class="nav-link text-white bg-primary rounded mr-2" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tickets.html">Reach Me</a>
+          <a class="nav-link  text-white bg-primary rounded" href="#reach-me">Reach Me</a>
         </li>    
       </ul>
     </div>  
   </nav>
 
 <!-- Main Info section for my info -->
-  <main class='font-1 fluid-container ml-5 mr-5 pl-3 pr-3 mb-5 pb-5'>
+  <main class='font-1 fluid-container ml-5 mr-5 mb-5 mt-3 pl-3 pr-3 pb-5 pt-5' id='my-info'>
     <h1 class='font-weight-bold'>I'm<br>Alejandro Toledo<br> Welcome to my Portfolio!</h1><br>
     <h3>Passion About doing the best in everything</h3>
     <h3>Learn new things and work on new projects</h2> <br>
@@ -51,17 +51,17 @@
     <div class=''>
       <ul class='list-group list-group-horizontal'>
         <li class='list-group-item'>
-          <a href="https://github.com/alejandrotoledoweb">
+          <a href="https://github.com/alejandrotoledoweb" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </li>
         <li class='list-group-item'>
-          <a href="https://www.linkedin.com/in/alejandro-toledo-3b444b109/">
+          <a href="https://www.linkedin.com/in/alejandro-toledo-3b444b109/" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li class='list-group-item'>
-          <a href="https://twitter.com/alejot">
+          <a href="https://twitter.com/alejot" target="_blank">
             <i class="fab fa-twitter-square"></i>
           </a>
         </li>
@@ -71,7 +71,7 @@
 
   <!-- Projects Section -->
   <!-- Project 1 -->
-  <h1 class="ml-5">My Projects</h1> <br>
+  <h1 class="ml-5 pt-5 mt-2 mt-3" id='projects'>My Projects</h1> <br>
   <section class="fluid-container ml-5 mr-5 pt-4 pb-4 pl-3 pr-3 d-flex border rounded">
     <div class="row align-items-center">
       <div class="col-sm-12 col col-md-6 col-lg-6">
@@ -87,8 +87,11 @@
           <li class="list-group-item active mr-2 rounded">CSS</li>
           <li class="list-group-item active rounded">BOOTSTRAP</li>
         </ul><br>
+        <a href="https://github.com/alejandrotoledoweb/capstone-project-html-and-css" target="_blank">
+          <button type="button" class="mb-1 btn btn-secondary">REPOSITORY</button><br>
+        </a>
         <a href="https://rawcdn.githack.com/alejandrotoledoweb/capstone-project-html-and-css/6a98a12b3d70e53f899db1a12999de9162d6af23/main.html" target="_blank">
-          <button type="button" class="mb-5 btn btn-primary">SEE THE PAGE</button><br>
+          <button type="button" class=" btn btn-secondary">SEE THE LIVE DEMO LINK</button><br>
         </a>
       </div>
       
@@ -112,18 +115,18 @@
           <p class="mr-4">2020</p>
           <p class="mr-4">Contains 1 pages</p>
         </div>
-        <p>This project porpuse is to use JS to create a funcioal budget app.</p>
+        <p>This project purpose is to use JS to create a functional budget app.</p>
         <ul class="list-group list-group-horizontal">
           <li class="list-group-item active mr-2 rounded">HTML</li>
           <li class="list-group-item active mr-2 rounded">CSS</li>
           <li class="list-group-item active rounded mr-2">JAVASCRIPT</li>
         </ul><br>
-        <button type="button" class="mb-5 btn btn-primary">SEE THE PAGE</button><br>
+        <button type="button" class="mb-5 btn btn-primary">REPOSITORY</button><br>
       </div>
     </div>
   </section> <br><br>
 
-  <!-- Project - 2  -->
+  <!-- Project - 3  -->
   <section class="fluid-container ml-5 mr-5 pt-4 pb-4 pl-3 pr-3 d-flex border rounded">
     <div class="row align-items-center">
       <div class="col-sm-12 col col-md-6 col-lg-6">
@@ -132,30 +135,32 @@
           <p class="mr-4">Front-End</p>
           <p class="mr-4">2020</p>
         </div>
-        <p>This project contains an app that allows you to create post and you can only see the post when you are signed in.</p>
+        <p>This project contains a Twitter Clone with the same functionality of the origin app. I build this project entirely with Ruby on Rails.</p>
         <ul class="list-group list-group-horizontal">
           <li class="list-group-item active mr-2 rounded">Ruby on Rails</li>
-          <li class="list-group-item active mr-2 rounded">Principal Gems: </li>
-          <li class="list-group-item active rounded">Scaffold, Devise</li>
+          <li class="list-group-item active mr-2 rounded">Bootstrap</li>
         </ul><br>
-        <a href="https://github.com/alejandrotoledoweb/members-only-club" target="_blank">
-          <button type="button" class="mb-5 btn btn-primary">SEE THE PROJECT</button><br>
+        <a href="https://github.com/alejandrotoledoweb/rails_capstone_retwitter" target="_blank">
+          <button type="button" class="mb-2 btn btn-secondary">REPOSITORY</button><br>
+        </a>
+        <a href="https://afternoon-beach-90148.herokuapp.com/" target="_blank">
+          <button type="button" class="mb-5 btn btn-secondary">LIVE DEMO LINK</button><br>
         </a>
       </div>
       
       <div class="col-sm-12 col-md-6 col-lg-6">
-        <img class="project-img img-fluid" src="images/member-only-screenshot.png" alt="capstone-project">
+        <img class="project-img img-fluid" src="images/screenshot-1-capstone.png" alt="capstone-project">
       </div>
     </div>
   </section> <br><br>
 
   <footer>
     <!-- My resume section -->
-    <section class="fluid-container d-flex flex-direction-row ml-5 mr-5 mb-5 border rounded pl-3 pt-3 pr-3 pb-3">
+    <section class="fluid-container d-flex flex-direction-row ml-5 mr-5 mb-5 border rounded pl-3 pt-3 pr-3 pb-3" id="reach-me">
       <div class="row align-items-center">
         <div class='col-sm-12 col-md-6 col-lg-6 mb-5'>
-          <h1>About Myself</h1>
-          <p>Hello I am a Full Stack Developer. I can create a project for you. I made webpages from different purpose and always open to work on something new and learn new languages.</p>
+          <h1>Contact Me</h1>
+          <p>Hello, I am a Full Stack Developer. I can create a project for you. I made webpages from different purpose and always open to work on something new and learn new languages.</p>
           <h6>LET'S CONNECT</h6>
           <div class=''>
             <ul class='list-group list-group-horizontal'>
@@ -175,6 +180,17 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="my-resume ">
+            <p>
+            You can see my resume by clicking <a href="https://docs.google.com/document/d/1p7-RG8bh999jsgI3uEGEAos56v_GwUcZKR1XbBmhDlo/edit?usp=sharing" target="_blank"> <strong> here.</strong></a>
+          </p>
+          <p>
+            My email address is the following: <a href="mailto:atoledofr@gmail.com"> <strong> atoledofr@gmail.com</strong></a>
+          </p>
+          <p>
+            My telephone number is the following: <br><strong>+593 0992 601 505</strong>
+          </p>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
