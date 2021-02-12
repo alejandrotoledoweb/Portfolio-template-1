@@ -21,6 +21,8 @@ I build this project as a simple portfolio, useful and ready access to edit and 
  - CSS
  - BOOTSTRAP
 
+ ## Author
+
 👤 **Alejandro Toledo**
 
 - GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
