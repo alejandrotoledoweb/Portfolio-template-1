@@ -6,14 +6,7 @@ Some of them I built during the time I was studying at Microverse School and oth
 
 ## Images
 
-![screenshot](./app/assets/images/screenshot-1-capstone.png)
-
-## Built and tested With
-
-- Ruby 2.7.0
-- Ruby on Rails 6.1.0
-- Rspec
-- Postgres: >=9.5
+![screenshot](images/Screenshot-main-page.png)
 
 ## Visit my portfolio 
 
