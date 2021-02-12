@@ -17,11 +17,11 @@ Some of them I built during the time I was studying at Microverse School and oth
 
 ## Visit my portfolio 
 
-[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/)
+[Click on this link to visit my portfolio](https://rawcdn.githack.com/alejandrotoledoweb/Portfolio-template-1/5727e97e174e755fa3338c0a1f23c436113e9b2a/index.html)
 
 ## Languages
 
-I build this project as a simple portfolio, usefull and ready acces to edit and show my project.
+I build this project as a simple portfolio, useful and ready access to edit and show my project.
  I built this repo using:
 
  - HMTL
