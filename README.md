@@ -10,7 +10,7 @@ Some of them I built during the time I was studying at Microverse School and oth
 
 ## Visit my portfolio 
 
-[Click on this link to visit my portfolio](https://rawcdn.githack.com/alejandrotoledoweb/Portfolio-template-1/6cb114f592373e37175ecc86aceb3f8e32bc1579/index.html)
+[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/#reach-me)
 
 ## Languages
 
