@@ -3,23 +3,17 @@
 This repo contains my personal portfolio to show my personal project that I built.
 Some of them I built during the time I was studying at Microverse School and other I build as my personal goals to build.
 
-
-## Images
-
 ![screenshot](images/Screenshot-main-page.png)
 
-## Visit my portfolio 
-
-[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/#reach-me)
-
-## Languages
-
-I build this project as a simple portfolio, useful and ready access to edit and show my project.
- I built this repo using:
+## Built With
 
  - HMTL
  - CSS
  - BOOTSTRAP
+
+ ## Live Demo
+
+[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/#reach-me)
 
  ## Author
 
