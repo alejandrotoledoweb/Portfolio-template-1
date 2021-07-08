@@ -13,7 +13,7 @@ Some of them I built during the time I was studying at Microverse School and oth
 
  ## Live Demo
 
-[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/#reach-me)
+[Click on this link to visit my portfolio](https://alejandrotoledoweb.github.io/Portfolio-template-1/)
 
  ## Author
 
