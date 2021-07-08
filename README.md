@@ -9,7 +9,7 @@ Some of them I built during the time I was studying at Microverse School and oth
 
  - HMTL
  - CSS
- - BOOTSTRAP
+ - Boostrap
 
  ## Live Demo
 
